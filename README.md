@@ -8,6 +8,8 @@ The method that Quarks built, and which I copied, is based off of an example fou
 You would use the method thus for case-insensitive comparison:
 
 ```csharp
+using CaseInsensitiveStringCompare;
+
 var input = "I want pizza";
 var rslt = input.Contains("PiZzA", false);
 // rslt will be "true"
@@ -16,6 +18,8 @@ var rslt = input.Contains("PiZzA", false);
 Or, for traditional case-sensitive comparison, you could do this:
 
 ```csharp
+using CaseInsensitiveStringCompare;
+
 var input = "I want pizza";
 var rslt = input.Contains("PiZzA", false);
 //rslt will be "false"
