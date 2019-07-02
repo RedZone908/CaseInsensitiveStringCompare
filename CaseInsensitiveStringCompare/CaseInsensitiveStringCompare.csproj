@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>README.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/RedZone908/CaseInsensitiveStringCompare/tree/master</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RedZone908/CaseInsensitiveStringCompare/tree/master</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>String,Case,Insensitive</PackageTags>
+    <Copyright></Copyright>
+    <Description>Quick C# .NET Standard extension for case-insensitive string comparison</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
