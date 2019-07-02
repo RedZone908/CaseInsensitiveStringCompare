@@ -2,9 +2,9 @@
 
 namespace CaseInsensitiveStringCompare
 {
-    static partial class StringExtension
+    public static partial class StringExtension
     {
-        internal static bool Contains(this string input, string value, bool caseSensitive)
+        public static bool Contains(this string input, string value, bool caseSensitive)
         {
             if (caseSensitive)
                 return input.Contains(value);

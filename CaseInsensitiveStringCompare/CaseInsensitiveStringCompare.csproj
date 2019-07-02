@@ -10,6 +10,7 @@
     <PackageTags>String,Case,Insensitive</PackageTags>
     <Copyright></Copyright>
     <Description>Quick C# .NET Standard extension for case-insensitive string comparison</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
